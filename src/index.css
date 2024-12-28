@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(90deg, #575656, #062e3f);
+    color: #ffdfdb;
+    height: 100vh;
+}
+
+.container {
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.todo-list {
+    width: 75%;
+    text-align: left;
+}
