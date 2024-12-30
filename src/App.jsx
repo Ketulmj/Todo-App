@@ -88,11 +88,11 @@ function App() {
                 changeDone(item.id);
               }}
             />
+            </div>
             <div
-              className={`todo-list p-2.5 text-lg text-wrap font-wiefont-sans ${item.isDone ? "line-through" : ""}`}
+              className={`todo-list p-2.5 text-lg font-sans ${item.isDone ? "line-through" : ""}`}
             >
               {item.todo}
-            </div>
           </div>
           <div className="absolute buttons self-center right-5">
             <button
