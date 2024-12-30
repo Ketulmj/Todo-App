@@ -2,7 +2,7 @@
 
 A simple and intuitive to-do app built with React. This app helps users manage their tasks effectively, with features like adding, editing, marking tasks as done, and deleting tasks. It also persists data using `localStorage` so that tasks are retained across browser sessions.
 
-![image](https://github.com/user-attachments/assets/923f1df4-59ed-4403-a7e5-a6000253a69d)
+![Screenshot 2024-12-30 231839](https://github.com/user-attachments/assets/df38eeba-3283-415f-9cf1-0629c8bcf96b)
 
 ## Features
 
