@@ -86,8 +86,7 @@ function App() {
               checked={item.isDone}
               onChange={() => {
                 changeDone(item.id);
-              }}
-            />
+              }}/>
             </div>
             <div
               className={`todo-list p-2.5 text-lg font-sans ${item.isDone ? "line-through" : ""}`}
@@ -99,16 +98,14 @@ function App() {
               className="m-1 p-1.5 bg-black text-indigo-50 border rounded hover:border-slate-500 focus:border-indigo-300"
               onClick={() => {
                 editTodo(item.id);
-              }}
-            >
+              }}>
               <CiEdit />
             </button>
             <button
               className="m-1 p-1.5 bg-black text-indigo-50 border rounded hover:border-slate-500 focus:border-indigo-300"
               onClick={() => {
                 deleteTodo(item.id);
-              }}
-            >
+              }}>
               <MdDelete />
             </button>
           </div>
