@@ -31,7 +31,7 @@ A simple and intuitive to-do app built with React. This app helps users manage t
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone [Todo-App](https://github.com/Ketulmj/Todo-App.git)
    ```
 
 2. Navigate to the project directory:
